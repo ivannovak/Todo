@@ -5,7 +5,7 @@ define([
 	'underscore',
 	'parse',
 	'templates',
-	'/scripts/views/ManageTodos.js',
+	'/scripts/views/ManageTodos.js', // Why won't `'views/ManageTodos'` work here...
 ], function ($, _, Parse, JST, ManageTodosView) {
 	// 'use strict';
 
